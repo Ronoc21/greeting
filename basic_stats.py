@@ -19,7 +19,7 @@ def basic_stats(student_list):
     """uses for loop to iterate over student list and takes grades from student objects and finds mean, median, and mode"""
     grade = []
     for i in student_list:
-        grade.append(i._grade)
+        _grade.append(i._grade)
 
     return statistics.mean(grade), statistics.median(grade), statistics.mode(grade)
 
